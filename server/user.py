@@ -1,7 +1,4 @@
-# from database import DatabaseHandler
-# from send_data import SendData
-# # from time import sleep
-# import log
+
 
 
 class User:
@@ -24,6 +21,9 @@ class User:
         self.game_status = 0    # 游戏状态，11准备，12白棋，13黑棋
         self.total_time = 0
         self.level_up = False
+        
+    def haha(self):
+        print('wubeauty')
 
     # def register(self, data):
     #     uid = data['UserName']
